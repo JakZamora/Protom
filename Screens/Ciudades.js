@@ -5,37 +5,37 @@ import { styles } from "../Themes/fondos";
 const Ciudades = ({navigation}) => {
   const ciudades = [
     {
-      nombre: "Ciudad de México",
+      nombre: "LOLOLOLOLOLO",
       clima: "Templado con lluvias en verano",
       temperatura: "22°C",
       poblacion: "9.2 millones",
     },
     {
-      nombre: "Buenos Aires",
+      nombre: "Me comi una salchipapa",
       clima: "Templado húmedo con inviernos frescos",
       temperatura: "18°C",
       poblacion: "3.1 millones",
     },
     {
-      nombre: "Madrid",
+      nombre:"AMO A LA KAZ",
       clima: "Mediterráneo continental",
       temperatura: "25°C",
       poblacion: "3.3 millones",
     },
     {
-      nombre: "Bogotá",
+      nombre: "TAMBIEN A UNA MORRA DE ACA QUE SE LLAMA ABIGAIL",
       clima: "Templado de montaña",
       temperatura: "14°C",
       poblacion: "7.9 millones",
     },
     {
-      nombre: "Santiago de Chile",
+      nombre: "LA NETA COMO 10 VECES MAS JAJA",
       clima: "Mediterráneo con estaciones marcadas",
       temperatura: "20°C",
       poblacion: "6.7 millones",
     },
     {
-      nombre: "Lima",
+      nombre: "PERO YA TIENE NOVIO :(",
       clima: "Desértico subtropical",
       temperatura: "19°C",
       poblacion: "9.7 millones",
