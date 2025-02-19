@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StatusBar, ScrollView, TouchableOpacity } from 'react-native';
+import { View, Text, StatusBar, TouchableOpacity } from 'react-native';
 import { styles } from '../Themes/fondos'; // Asegúrate de que este archivo existe
 
 export default function HomeScreen({ navigation }) {
