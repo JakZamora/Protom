@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, ScrollView, TouchableOpacity } from "react-native";
 import { styles } from "../Themes/fondos";
 
-const Ciudades = ({navigation}) => {
+const Ciudades = ({ navigation }) => {
   const ciudades = [
     {
       nombre: "LOLOLOLOLOLO",
@@ -44,42 +44,48 @@ const Ciudades = ({navigation}) => {
 
   return (
     <>
-    
-    <View style={styles.container}>
-      <Text
-        style={{
-          fontSize: 28,
-          fontWeight: "bold",
-          color: "#FFFFFF",
-          marginBottom: 15,
-        }}
-      >
-        Clima en Ciudades
-      </Text>
+      <View style={styles.container}>
+        <Text
+          style={{
+            fontSize: 28,
+            fontWeight: "bold",
+            color: "#FFFFFF",
+            marginBottom: 15,
+          }}
+        >
+          Clima en Ciudades
+        </Text>
 
-      <ScrollView
-        style={styles.detailsScroll}
-        contentContainerStyle={styles.detailsContainer}
-      >
-        {ciudades.map((ciudad, index) => (
-          <View key={index} style={styles.detailBox}>
-            <Text style={styles.detailLabel}>{ciudad.nombre}</Text>
-            <Text style={styles.detailValue}>🌡 {ciudad.temperatura}</Text>
-            <Text style={styles.detailValue}>🌤 {ciudad.clima}</Text>
-            <Text style={styles.detailValue}>
-              👥 Población: {ciudad.poblacion}
-            </Text>
-          </View>
-        ))}
-      </ScrollView>
-      <TouchableOpacity
-        onPress={() => {navigation.goBack()}}
-        style={styles.detailsButton}
-      >
-        <Text style={styles.detailsButtonText}>Volver</Text>
-      </TouchableOpacity>
-    </View>
+        <ScrollView
+          style={styles.detailsScroll}
+          contentContainerStyle={styles.detailsContainer}
+        >
+          {ciudades.map((ciudad, index) => (
+            <View key={index} style={styles.detailBox}>
+              <Text style={styles.detailLabel}>{ciudad.nombre}</Text>
+              <Text style={styles.detailValue}>🌡 {ciudad.temperatura}</Text>
+              <Text style={styles.detailValue}>🌤 {ciudad.clima}</Text>
+              <Text style={styles.detailValue}>
+                👥 Población: {ciudad.poblacion}
+              </Text>
+            </View>
+          ))}
+        </ScrollView>
+        <TouchableOpacity
+          onPress={() => {
+            navigation.goBack();
+          }}
+          style={styles.detailsButton}
+        >
+          <Text style={styles.detailsButtonText}>Volver</Text>
+        </TouchableOpacity>
+      </View>
     </>
   );
+<<<<<<< HEAD
 }
 export default Ciudades
+=======
+};
+export default Ciudades;
+>>>>>>> 248adaf (Actualizacion con nuevos cambios)
