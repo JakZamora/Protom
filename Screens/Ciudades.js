@@ -82,10 +82,6 @@ const Ciudades = ({ navigation }) => {
       </View>
     </>
   );
-<<<<<<< HEAD
 }
 export default Ciudades
-=======
-};
-export default Ciudades;
->>>>>>> 248adaf (Actualizacion con nuevos cambios)
+
